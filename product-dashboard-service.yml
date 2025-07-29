@@ -35,4 +35,6 @@ resilience4j:
                   permittedNumberOfCallsInHalfOpenState: 3
                   minimumNumberOfCalls: 5
                   automaticTransitionFromOpenToHalfOpenEnabled: true
+                  recordExceptions:
+					- feign.FeignException
 
