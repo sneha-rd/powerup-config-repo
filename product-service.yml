@@ -3,7 +3,7 @@ server:
   port: 8084
 spring:
     application:
-        name: product
+        name: product-service
     datasource:
         url: jdbc:postgresql://localhost:5432/postgres
         username: postgres
