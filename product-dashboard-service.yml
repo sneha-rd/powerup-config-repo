@@ -38,3 +38,6 @@ resilience4j:
                   recordExceptions:
                         - feign.FeignException
 
+feign:
+    circuitbreaker:
+         enabled: true
