@@ -16,8 +16,8 @@ spring:
         show-sql: true
     cloud:
        circuitbreaker:
-		resilience4j:
-            enabled: true
+            resilience4j:
+               enabled: true
 
 eureka:
      client:
