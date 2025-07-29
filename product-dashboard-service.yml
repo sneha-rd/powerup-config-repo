@@ -36,5 +36,5 @@ resilience4j:
                   minimumNumberOfCalls: 5
                   automaticTransitionFromOpenToHalfOpenEnabled: true
                   recordExceptions:
-					- feign.FeignException
+                        - feign.FeignException
 
