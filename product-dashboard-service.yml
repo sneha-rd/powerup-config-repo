@@ -37,7 +37,3 @@ resilience4j:
                   automaticTransitionFromOpenToHalfOpenEnabled: true
                   recordExceptions:
                         - feign.FeignException
-
-feign:
-    circuitbreaker:
-         enabled: true
